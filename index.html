@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bala EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>EMI Calculator</h1>
+    <div class="form-container">
+        <div class="container">
+            <form>
+                <label for="amount">Loan Amount ₹:</label>
+                <input type="number" placeholder="Enter loan amount" class="Principle">
+                <label for="interest">Loan Interest %:</label>
+                <input type="number" placeholder="Enter loan Interest" class="Interest">
+        </div>
+        <label for="months">Loan Tenure ₹:</label>
+        <input type="number" placeholder="Enter loan amount" class="Tenure">
+
+        <label for="option">Loan Duration ↓</label>
+        <div class="end">
+            <select class="options">
+                <option value="months">months</option>
+                <option value="years">years</option>
+            </select>
+            <div class="calculate">
+                <button class="Calculate">calculate</button>
+            </div>
+            <button class="clearBtn">clear</button>
+        </div>
+        </form>
+        <div class="totalresult">
+            <div class="result">
+                <label class="center">Monthly EMI is ₹:</label><span class="monthly-payment span"></span>
+            </div>
+            <div class="result1">
+                <label class="center">Total Interest Payable ₹:</label><span class="monthly-interest span"></span>
+            </div>
+            <div class="result2">
+                <label class="center">Total Payment (Principle+Interest) ₹:</label><span class="total-payment span"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="emi.js"></script>
+</body>
+
+</html>

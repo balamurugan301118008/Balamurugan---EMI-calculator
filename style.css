@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #97becf;
+  /* overflow: hidden; */
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form-container {
+  margin: 33px auto;
+  width: 44%;
+  padding: 20px;
+  background-color: #a3f5ff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px -7px rgb(0 0 0 / 20%);
+}
+
+label {
+  color: #202424;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 0px solid #c72d2d;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+button.Calculate:hover {
+  background-color: #7ae69a;
+  cursor: pointer;
+}
+
+.end {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 31px;
+  width: 100%;
+  height: 24px;
+}
+
+button.Calculate {
+  width: 100%;
+  height: 30px;
+  background-color: #a2c2dd;
+  border-style: none;
+  border-radius: 3px;
+  color: #202424;
+  font-size: 17px;
+}
+
+.calculate {
+  width: 27%;
+}
+
+button.clearBtn {
+  width: 27%;
+  height: 30px;
+  background-color: #a2c2dd;
+  border-style: none;
+  border-radius: 3px;
+  color: #202424;
+  font-size: 17px;
+}
+
+button.clearBtn:hover {
+  background-color: #e27a7a;
+}
+
+select.options {
+  width: 17%;
+  height: 29px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #a2c2dd;
+  border-style: none;
+}
+
+.totalresult {
+  display: none;
+  background-color: #f7f3ef;
+  height: 186px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+.center {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #6a9d80;
+  font-weight: bolder;
+}
+
+.monthly-payment {
+  position: relative;
+  left: 171px;
+  bottom: 32px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.monthly-interest {
+  position: relative;
+  left: 218px;
+  bottom: 32px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.total-payment {
+  position: relative;
+  left: 317px;
+  bottom: 32px;
+  font-weight: bolder;
+  font-size: 18px;
+}
